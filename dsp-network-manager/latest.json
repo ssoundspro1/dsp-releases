@@ -1,13 +1,9 @@
 {
   "version": "1.0.2",
-  "notes": "Fix issues can now set per-system level. macOS signed, notarised and stapled by CI.",
+  "notes": "Fix issues can now set per-system level. macOS is Developer ID signed, notarised and stapled by the build pipeline.",
   "pub_date": "2026-09-18T08:14:08.370Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUT1hTVDU2YW13cW9QYzB4Tm9iZVlhOUhGdlFETUdGNWlaVWtQQVVYWlVTS2hETkVTMzkvUWZWdGFpYmg2VWIvekpvNkJxNm1WZzZOL3FLUUhUTFpienZGa2dlejBPbndvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzE4NjMwCWZpbGU6UyBTb3VuZHMgRFNQIE5ldHdvcmsgTWFuYWdlci5hcHAudGFyLmd6CksxOTFNUm1rTVdwTHRvN3lMTzNtYTVXTUdZci9NcTg5YlA1ZUFPZVp2NUIzc0tZdVlQVjdWUytUdVBrSlYwMzc2L2RCZklTcmNnN0taRjMweXpXY0RnPT0K",
-      "url": "https://github.com/ssoundspro1/dsp-releases/releases/download/dsp-network-manager-v1.0.2/S.Sounds.DSP.Network.Manager_universal.app.tar.gz"
-    },
-    "darwin-aarch64-app": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUT1hTVDU2YW13cW9QYzB4Tm9iZVlhOUhGdlFETUdGNWlaVWtQQVVYWlVTS2hETkVTMzkvUWZWdGFpYmg2VWIvekpvNkJxNm1WZzZOL3FLUUhUTFpienZGa2dlejBPbndvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzE4NjMwCWZpbGU6UyBTb3VuZHMgRFNQIE5ldHdvcmsgTWFuYWdlci5hcHAudGFyLmd6CksxOTFNUm1rTVdwTHRvN3lMTzNtYTVXTUdZci9NcTg5YlA1ZUFPZVp2NUIzc0tZdVlQVjdWUytUdVBrSlYwMzc2L2RCZklTcmNnN0taRjMweXpXY0RnPT0K",
       "url": "https://github.com/ssoundspro1/dsp-releases/releases/download/dsp-network-manager-v1.0.2/S.Sounds.DSP.Network.Manager_universal.app.tar.gz"
     },
@@ -15,9 +11,37 @@
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUT1hTVDU2YW13cW9QYzB4Tm9iZVlhOUhGdlFETUdGNWlaVWtQQVVYWlVTS2hETkVTMzkvUWZWdGFpYmg2VWIvekpvNkJxNm1WZzZOL3FLUUhUTFpienZGa2dlejBPbndvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzE4NjMwCWZpbGU6UyBTb3VuZHMgRFNQIE5ldHdvcmsgTWFuYWdlci5hcHAudGFyLmd6CksxOTFNUm1rTVdwTHRvN3lMTzNtYTVXTUdZci9NcTg5YlA1ZUFPZVp2NUIzc0tZdVlQVjdWUytUdVBrSlYwMzc2L2RCZklTcmNnN0taRjMweXpXY0RnPT0K",
       "url": "https://github.com/ssoundspro1/dsp-releases/releases/download/dsp-network-manager-v1.0.2/S.Sounds.DSP.Network.Manager_universal.app.tar.gz"
     },
+    "darwin-aarch64-app": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUT1hTVDU2YW13cW9QYzB4Tm9iZVlhOUhGdlFETUdGNWlaVWtQQVVYWlVTS2hETkVTMzkvUWZWdGFpYmg2VWIvekpvNkJxNm1WZzZOL3FLUUhUTFpienZGa2dlejBPbndvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzE4NjMwCWZpbGU6UyBTb3VuZHMgRFNQIE5ldHdvcmsgTWFuYWdlci5hcHAudGFyLmd6CksxOTFNUm1rTVdwTHRvN3lMTzNtYTVXTUdZci9NcTg5YlA1ZUFPZVp2NUIzc0tZdVlQVjdWUytUdVBrSlYwMzc2L2RCZklTcmNnN0taRjMweXpXY0RnPT0K",
+      "url": "https://github.com/ssoundspro1/dsp-releases/releases/download/dsp-network-manager-v1.0.2/S.Sounds.DSP.Network.Manager_universal.app.tar.gz"
+    },
     "darwin-x86_64-app": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUT1hTVDU2YW13cW9QYzB4Tm9iZVlhOUhGdlFETUdGNWlaVWtQQVVYWlVTS2hETkVTMzkvUWZWdGFpYmg2VWIvekpvNkJxNm1WZzZOL3FLUUhUTFpienZGa2dlejBPbndvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzE4NjMwCWZpbGU6UyBTb3VuZHMgRFNQIE5ldHdvcmsgTWFuYWdlci5hcHAudGFyLmd6CksxOTFNUm1rTVdwTHRvN3lMTzNtYTVXTUdZci9NcTg5YlA1ZUFPZVp2NUIzc0tZdVlQVjdWUytUdVBrSlYwMzc2L2RCZklTcmNnN0taRjMweXpXY0RnPT0K",
       "url": "https://github.com/ssoundspro1/dsp-releases/releases/download/dsp-network-manager-v1.0.2/S.Sounds.DSP.Network.Manager_universal.app.tar.gz"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUT1hTVDU2YW13cW5Lcm8ybFRCeWdjZlFCMTVpU2NzaVJaNHBJQ2tqWmxpNHlYYlc3VVZkTjZ5MkJNMTE2TTNPci80K0V1MlVXUmY1MWdJU2pkbk92TUR5UUNYaWVEZndrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzE4OTIxCWZpbGU6UyBTb3VuZHMgRFNQIE5ldHdvcmsgTWFuYWdlcl8xLjAuMl9hbWQ2NC5BcHBJbWFnZQo0SngvUC8ya2dHYTMwNDh3VDVMcWJIRUlFY2YzYVkwbmJiVXp1S1lUeURvTUprWG1xSGh6UXdyZXBrMzRRTVJ2eEVtS3pJV1FJTFd1R3poREt3SEtDUT09Cg==",
+      "url": "https://github.com/ssoundspro1/dsp-releases/releases/download/dsp-network-manager-v1.0.2/S.Sounds.DSP.Network.Manager_1.0.2_amd64.AppImage"
+    },
+    "linux-x86_64-appimage": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUT1hTVDU2YW13cW5Lcm8ybFRCeWdjZlFCMTVpU2NzaVJaNHBJQ2tqWmxpNHlYYlc3VVZkTjZ5MkJNMTE2TTNPci80K0V1MlVXUmY1MWdJU2pkbk92TUR5UUNYaWVEZndrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzE4OTIxCWZpbGU6UyBTb3VuZHMgRFNQIE5ldHdvcmsgTWFuYWdlcl8xLjAuMl9hbWQ2NC5BcHBJbWFnZQo0SngvUC8ya2dHYTMwNDh3VDVMcWJIRUlFY2YzYVkwbmJiVXp1S1lUeURvTUprWG1xSGh6UXdyZXBrMzRRTVJ2eEVtS3pJV1FJTFd1R3poREt3SEtDUT09Cg==",
+      "url": "https://github.com/ssoundspro1/dsp-releases/releases/download/dsp-network-manager-v1.0.2/S.Sounds.DSP.Network.Manager_1.0.2_amd64.AppImage"
+    },
+    "linux-x86_64-deb": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUT1hTVDU2YW13cW5BRFFhRkdYbXlvaDhFWG03TVJZaDU5MkhMN0Fod1RiMUQ1SHQycCtVZ05KRDU5VkVYUG8zMEJkQ2JrN3VrUm1ZcDdQNGJnREFMTU0xeFIxbEVic1FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzE4OTIxCWZpbGU6UyBTb3VuZHMgRFNQIE5ldHdvcmsgTWFuYWdlcl8xLjAuMl9hbWQ2NC5kZWIKZ2RvbEtzNmhQMzRoV3RKbzIyZW1Ob0ZseExxY2tDWHhvdFoxN24xcVJ4aUtMVEJwT3BuYXEzOUNWc3Ftc1czaUtDLzNJRU9wTHNwN3l1NzFGTmNORFE9PQo=",
+      "url": "https://github.com/ssoundspro1/dsp-releases/releases/download/dsp-network-manager-v1.0.2/S.Sounds.DSP.Network.Manager_1.0.2_amd64.deb"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUT1hTVDU2YW13cW1QRjBaa2RPZ1Y4dGJ6akJmVzJRQWRPR1ovWXNDbmJiNHJ6aUE3YW16Zm9IKzA2ekdSUzIrTkh3RlI1MjZPVjlaVWNOL1k1Mmg0cmkyTWlmVFpLUUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzE5MjI3CWZpbGU6UyBTb3VuZHMgRFNQIE5ldHdvcmsgTWFuYWdlcl8xLjAuMl94NjQtc2V0dXAuZXhlCnZnYXByZk0zekJHZE5CcFRyTXBueEpyNVFxelZyUVVXVU42bUJPbEZOV3lBV0w2UU8rNTJOYUY0bmhpOUNTOVc3dGZkWkpjRTJzMi9wSzhDeXlwaERRPT0K",
+      "url": "https://github.com/ssoundspro1/dsp-releases/releases/download/dsp-network-manager-v1.0.2/S.Sounds.DSP.Network.Manager_1.0.2_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUT1hTVDU2YW13cW1QRjBaa2RPZ1Y4dGJ6akJmVzJRQWRPR1ovWXNDbmJiNHJ6aUE3YW16Zm9IKzA2ekdSUzIrTkh3RlI1MjZPVjlaVWNOL1k1Mmg0cmkyTWlmVFpLUUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzE5MjI3CWZpbGU6UyBTb3VuZHMgRFNQIE5ldHdvcmsgTWFuYWdlcl8xLjAuMl94NjQtc2V0dXAuZXhlCnZnYXByZk0zekJHZE5CcFRyTXBueEpyNVFxelZyUVVXVU42bUJPbEZOV3lBV0w2UU8rNTJOYUY0bmhpOUNTOVc3dGZkWkpjRTJzMi9wSzhDeXlwaERRPT0K",
+      "url": "https://github.com/ssoundspro1/dsp-releases/releases/download/dsp-network-manager-v1.0.2/S.Sounds.DSP.Network.Manager_1.0.2_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUT1hTVDU2YW13cXJtK3I0TnIxWUI3N1FHTVdDYmo1c0dubzE5OElES1p1eXYwUlVvczE0bDNIRXV3c25uRnI5K0xwM09DZVZmSEdweXFUWGNSVHMvZ0hqZWVoSkZTVkE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzE5MjI3CWZpbGU6UyBTb3VuZHMgRFNQIE5ldHdvcmsgTWFuYWdlcl8xLjAuMl94NjRfZW4tVVMubXNpClh5aHRTTmFhbUZFVzZLemhjRVBHNW5NSGFINld5WVVueTY0UlZWRzNkcVM5SlBDckVBbytmVUoxY3Bpb2dERWN2VGd0S1g4dkVad0xmZzYvandIWUFBPT0K",
+      "url": "https://github.com/ssoundspro1/dsp-releases/releases/download/dsp-network-manager-v1.0.2/S.Sounds.DSP.Network.Manager_1.0.2_x64_en-US.msi"
     }
   }
 }
